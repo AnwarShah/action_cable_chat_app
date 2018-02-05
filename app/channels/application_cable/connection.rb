@@ -4,7 +4,7 @@ module ApplicationCable
 
     identified_by :message_user
 
-    def connet
+    def connect
       self.message_user = find_verified_user
     end
 
